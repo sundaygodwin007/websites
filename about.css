@@ -193,7 +193,7 @@ footer  h4{
         grid-template-columns: 160px 160px;
         width: 100%;
         font-size: 0.8rem;
-        border-radius: 15px;
+        border-radius: 15px 15px 0  0 ;
     }
 
     footer  h4{
