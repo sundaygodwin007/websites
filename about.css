@@ -107,6 +107,12 @@ footer img {
     width: 1.5rem;
 }
 
+footer  h4{
+    margin: 3rem 0 0;
+    width : 200%;
+    font-size: 1rem;
+}
+
 
 
 
@@ -188,6 +194,12 @@ footer img {
         width: 100%;
         font-size: 0.8rem;
         border-radius: 15px;
+    }
+
+    footer  h4{
+        margin: 3rem 0 0;
+        width : 200%;
+        font-size: 0.7rem;
     }
 
 }
