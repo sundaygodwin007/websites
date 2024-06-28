@@ -130,16 +130,16 @@ section h4{
     
     /* Pastors images */
     section .ministers2.image2 img{
-        width: 7rem;
+        width: 8rem;
         border-radius: 5px;
         margin-top: 4rem;
-        height: 12rem;
+        height: 8rem;
     }
 
     /* made the pictures in the ministers2 side by side */
     section .ministers2{
         display: grid;
-        grid-template-columns: 200px 200px;
+        grid-template-columns: 100px 100px;
     }
 
 }
