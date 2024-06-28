@@ -49,7 +49,7 @@ header img{
 }
 
 header .combined-header .text-content h5{
-    font-family: 'Kaushan Script';
+    /* font-family: 'Kaushan Script'; */
     font-size: 1.5rem;
     color:rgb(249, 32, 12);
     font-weight: bold;
