@@ -184,7 +184,7 @@ footer img {
         padding: 3em;
         color: rgb(255,255,255);
         display: grid;
-        grid-template-columns: 180px 180px;
+        grid-template-columns: 160px 160px;
         width: 100%;
         font-size: 0.8rem;
         border-radius: 15px;
