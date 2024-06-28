@@ -88,7 +88,7 @@ section h4{
     
     .container-fluid a{
         color: rgb(255,255,255);
-        font-family: 'Playball', cursive;
+        /* font-family: 'Playball', cursive; */
     }
 
     .navbar .offcanvas, .dropdown-menu{
