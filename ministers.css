@@ -139,7 +139,7 @@ section h4{
     /* made the pictures in the ministers2 side by side */
     section .ministers2{
         display: grid;
-        grid-template-columns: 100px 100px;
+        grid-template-columns: 150px 150px;
     }
 
 }
