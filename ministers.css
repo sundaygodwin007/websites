@@ -42,7 +42,7 @@ header h4{
 
 /* G.o image */
 section .ministers.image1 img{
-    width: 8rem;
+    width: 10rem;
     border-radius: 5px;
     margin-top: 2rem;
 }
@@ -119,6 +119,22 @@ section h4{
     }
 
     /*  */
+
+    
+    /* G.o image */
+    section .ministers.image1 img{
+        width: 7rem;
+        border-radius: 5px;
+        margin-top: 2rem;
+    }
+    
+    /* Pastors images */
+    section .ministers2.image2 img{
+        width: 7rem;
+        border-radius: 5px;
+        margin-top: 4rem;
+        height: 12rem;
+    }
 
     /* made the pictures in the ministers2 side by side */
     section .ministers2{
