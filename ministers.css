@@ -1,0 +1,129 @@
+.fixed-top .container-fluid .navbar-toggler{
+    display: none;
+}
+
+#offcanvasNavbarLabel{
+    color: rgb(255,255,255);
+}
+
+.desktop-links a{
+    margin-right: 1.5rem;
+}
+
+.desktop-links button {
+    margin-right: 1.5rem;
+}
+
+nav {
+    background-color: rgb(255,255,255);
+}
+
+.navbar img{
+    width: 2rem;
+}
+
+.navbar  a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.navbar a:hover{
+    color: rgb(11, 135, 237);
+}
+
+
+header h4{
+    width: 50%;
+    margin: auto;
+    margin-top: 5rem;
+    background-color: rgb(0, 0, 0);
+    font-size: 1.7rem;
+}
+
+/* G.o image */
+section .ministers.image1 img{
+    width: 10rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+/* Pastors images */
+section .ministers2.image2 img{
+    width: 10rem;
+    border-radius: 5px;
+    margin-top: 4rem;
+    height: 12rem;
+}
+
+section .ministers2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/*  */
+
+section h4{
+    font-size: 13px;
+    padding: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .fixed-top .container-fluid .navbar-toggler{
+        display: initial;
+    }
+    
+    .desktop-links{
+        display: none;
+    }
+    
+    .container-fluid a{
+        color: rgb(255,255,255);
+        font-family: 'Playball', cursive;
+    }
+
+    .navbar .offcanvas, .dropdown-menu{
+        background-color: rgba(59, 123 ,167, 0.6);
+    }
+
+    .navbar-toggler .navbar-toggler-icon, .btn-close{
+        background-color: rgb(255,255,255);
+    }
+
+    nav {
+        background-color: rgba(73,73,73,0.9);
+    }
+
+        /*  */
+        .navbar .navbar-brand img{
+            border-radius: 50%;
+        }
+        /*  */
+
+    header h4{
+        width: 80%;
+        margin: auto;
+        margin-top: 5rem;
+        background-color: rgb(0, 0, 0);
+        font-size: 1.2rem;
+        border-radius: 4px;;
+    }
+
+    /*  */
+
+    /* made the pictures in the ministers2 side by side */
+    section .ministers2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

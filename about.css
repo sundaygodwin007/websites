@@ -1,0 +1,193 @@
+.fixed-top .container-fluid .navbar-toggler{
+    display: none;
+}
+
+#offcanvasNavbarLabel{
+    color: rgb(255,255,255);
+}
+
+.desktop-links a{
+    margin-right: 1.5rem;
+}
+
+.desktop-links button {
+    margin-right: 1.5rem;
+}
+
+nav {
+    background-color: rgb(255,255,255);
+}
+
+.navbar img{
+    width: 2rem;
+}
+
+.navbar  a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.navbar a:hover{
+    color: rgb(11, 135, 237);
+}
+
+header{
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+header span{
+    background-color: rgb(252, 9, 9);
+    color: rgb(255,255,255);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/*  */
+
+section h4{
+    background-color: rgb(252, 9, 9);
+    width: 50%;
+    color: rgb(255,255,255);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+section p{
+    font-size: 1.3rem;
+    text-align: start;
+    margin-bottom: 3rem;
+}
+
+article table{
+    width: 80%;
+    border: 3px solid black;
+}
+
+article table , tr, th, td{
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.artice-2 ,h2,h5{
+    text-align: center;
+}
+
+.section, .article, .article2{
+    font-size: 10px;
+}
+
+article a{
+    text-decoration: none;
+    color: rgb(255,255,255);
+    background-color: rgb(84, 171, 242);
+    padding: 4px;
+    border-radius: 10px;
+}
+
+article a:hover{
+    color: rgb(255, 0, 0);
+}
+
+footer{
+    margin-top: 8rem;
+    background-color: rgb(84, 171, 242);
+    padding: 3em;
+    color: rgb(255,255,255);
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
+
+footer  .links a:hover{
+    color: rgb(255, 0, 0);
+}
+
+footer img {
+    width: 1.5rem;
+}
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+    .fixed-top .container-fluid .navbar-toggler{
+        display: initial;
+    }
+    
+    .desktop-links{
+        display: none;
+    }
+    
+    .container-fluid a{
+        color: rgb(255,255,255);
+        font-family: 'Playball', cursive;
+    }
+
+    .navbar .offcanvas, .dropdown-menu{
+        background-color: rgba(59, 123 ,167, 0.9);
+
+        /* for future update */
+
+        /* background: linear-gradient(rgba(59, 123 ,167, 0.9),rgba(59, 123 ,167, 0.7)),
+        url(./images/christlove.png);
+        background-position:0%, 0%;
+        background-repeat: no-repeat;
+        background-size: cover; */ 
+    }
+    
+
+
+    .navbar-toggler .navbar-toggler-icon, .btn-close{
+        background-color: rgb(255,255,255);
+    }
+
+    nav {
+        background-color: rgba(59, 123 ,167, 0.9);
+    }
+
+    /*  */
+    .navbar .navbar-brand img{
+        border-radius: 50%;
+    }
+    /*  */
+
+
+    header span{
+        background-color: rgba(59, 123 ,167, 0.9);
+        color: rgb(255,255,255);
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    section h4{
+        background-color: rgba(59, 123 ,167, 0.9);
+        width: 90%;
+        color: rgb(255,255,255);
+        text-align: center;
+        margin: auto;
+        margin-bottom: 1.5rem;
+        font-size: 1.3rem;
+    }
+
+    section body p{
+        font-size: 15px;
+    }
+
+    footer{
+        margin-top: 8rem;
+        background-color: rgb(84, 171, 242);
+        padding: 3em;
+        color: rgb(255,255,255);
+        display: grid;
+        grid-template-columns: 180px 180px;
+        width: 100%;
+        font-size: 0.8rem;
+        border-radius: 15px;
+    }
+
+}

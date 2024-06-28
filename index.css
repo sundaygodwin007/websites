@@ -1,0 +1,182 @@
+.fixed-top .container-fluid .navbar-toggler{
+    display: none;
+}
+
+#offcanvasNavbarLabel{
+    color: rgb(255,255,255);
+}
+
+.desktop-links a{
+    margin-right: 1.5rem;
+}
+
+.desktop-links button {
+    margin-right: 1.5rem;
+}
+
+nav {
+    background-color: rgb(255,255,255);
+}
+
+/*  */
+.navbar img{
+    width: 2rem;
+}
+/*  */
+
+.navbar  a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.navbar a:hover{
+    color: rgb(11, 135, 237);
+}
+
+
+/* header */
+
+header .combined-header{
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin-top: 10rem;
+align-items: center;
+text-align: center;
+}
+
+header img{
+    width: 22rem
+}
+
+header .combined-header .text-content h5{
+    font-family: 'Kaushan Script';
+    font-size: 1.5rem;
+    color:rgb(249, 32, 12);
+    font-weight: bold;
+}
+
+header .combined-header .text-content h4{
+    font-size: 2rem;
+    color: rgb(11, 135, 237);
+    font-weight: bold;
+}
+
+article .article-text h4{
+    margin-top: 4rem;
+    text-align: center;
+    background-color: rgba(11, 135, 237,0.7);
+    padding: 2rem;
+    color: rgb(255,255,255);
+    border-radius: 1rem;
+}
+
+section .combined-verses {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin: 7rem 0 2rem;
+}
+
+section .bible{
+    background-color: rgba(11, 135, 237,0.7);
+    color: rgb(255,255,255);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+section .bible h4{
+    font-size: 1.2rem;
+}
+
+section .bible h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* mobile and tab view */
+@media (max-width: 767px) {
+    .fixed-top .container-fluid .navbar-toggler{
+        display: initial;
+    }
+    
+    .desktop-links{
+        display: none;
+    }
+    
+    .container-fluid a{
+        color: rgb(255,255,255);
+        font-family: 'Playball', cursive;
+    }
+
+    .navbar .offcanvas, .dropdown-menu{
+        background-color: rgba(59, 123 ,167, 0.6);
+    }
+
+    .navbar-toggler .navbar-toggler-icon, .btn-close{
+        background-color: rgb(255,255,255);
+    }
+
+    nav {
+        background-color: rgba(73,73,73,0.9);
+    }
+
+    /*  */
+    .navbar .navbar-brand img{
+        border-radius: 50%;
+    }
+    /*  */
+
+    header{
+        background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.8)),
+        url(./images/christlove.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        text-align: center;
+        padding: 13rem 1.5rem;
+        height: 100vh;
+        color: rgb(255,255,255);
+        font-family: 'Kaushan Script', cursive;
+    }
+    
+    header h4{
+        font-size: 1.5rem;
+    }
+
+    header h5{
+        color: rgb(249, 32, 12);
+        font-weight:  bold;
+        background-color: rgb(255,255,255);
+        width: 90%;
+        margin: auto;
+        padding: 5px;
+    }
+
+    .navbar img{
+        width: 2rem;
+    }
+
+    header .combined-header{
+        display: initial;
+    }
+
+    header .combined-header .text-content h4{
+        color: rgb(255,255,255);
+        font-weight: lighter;
+    }
+    header .combined-header .logo-image{
+        display: none;
+    }
+
+    article,section{
+        display: none;
+    }
+
+}
